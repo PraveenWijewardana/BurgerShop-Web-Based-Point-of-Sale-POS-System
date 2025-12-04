@@ -1,0 +1,71 @@
+[
+  {
+    "customer_id": "CUST-1001",
+    "first_name": "Alice",
+    "last_name": "Smith",
+    "email": "alice.smith@example.com",
+    "loyalty_status": "Gold Tier",
+    "registration_date": "2023-10-26T10:00:00Z",
+    "marketing_consent": {
+      "email_promotions": true,
+      "sms_notifications": false,
+      "share_data_third_parties": true
+    },
+    "activity_metrics": {
+      "total_orders_count": 5,
+      "lifetime_spend": 750.85
+    }
+  },
+  {
+    "customer_id": "CUST-1002",
+    "first_name": "Bob",
+    "last_name": "Johnson",
+    "email": "bob.johnson@example.net",
+    "loyalty_status": "Silver Tier",
+    "registration_date": "2024-01-15T15:45:00Z",
+    "marketing_consent": {
+      "email_promotions": false,
+      "sms_notifications": true,
+      "share_data_third_parties": false
+    },
+    "activity_metrics": {
+      "total_orders_count": 2,
+      "lifetime_spend": 125.00
+    }
+  },
+  {
+    "customer_id": "CUST-1003",
+    "first_name": "Charlie",
+    "last_name": "Brown",
+    "email": "charlie.brown@example.org",
+    "loyalty_status": "Bronze Tier",
+    "registration_date": "2024-05-01T08:20:00Z",
+    "marketing_consent": {
+      "email_promotions": true,
+      "sms_notifications": true,
+      "share_data_third_parties": false
+    },
+    "activity_metrics": {
+      "total_orders_count": 1,
+      "lifetime_spend": 55.99
+    }
+  },
+  {
+     "customer_id": "CUST-1003",
+    "first_name": "Charlie",
+    "last_name": "Brown",
+    "email": "charlie.brown@example.org",
+    "loyalty_status": "Bronze Tier",
+    "registration_date": "2024-05-01T08:20:00Z",
+    "marketing_consent": {
+      "email_promotions": true,
+      "sms_notifications": true,
+      "share_data_third_parties": false
+    },
+    "activity_metrics": {
+      "total_orders_count": 1,
+      "lifetime_spend": 55.99
+    }
+  }
+
+]

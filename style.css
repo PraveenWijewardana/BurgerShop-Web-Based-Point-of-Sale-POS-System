@@ -1,0 +1,55 @@
+#video{
+  position: fixed;
+              top: 0;
+            left: 0;
+            width: 50%;
+            height: 90%;
+            object-fit: cover;
+            z-index: -1;
+             overflow: hidden;
+}
+.container-fluid{
+  background: linear-gradient(135deg, #c45353 0%, #360101 100%);
+     display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 8px 32px rgba(163, 151, 151, 0.5);
+    border-bottom: 4px solid #585b5c;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.form-control me-2{
+  border: 2px solid rgba(88, 86, 86, 0.6);
+    background-color: rgba(178, 168, 168, 0.4);
+    color: rgb(4, 4, 4);
+    font-size: 16px;
+    outline: auto;
+    
+    transition: all 0.7s ease;
+    text-align: center;
+    /* z-index: 1; */
+    margin-top: 50px;  
+
+}
+
+.story-box{
+  position: absolute;
+      top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    /* padding: 25px;  */
+    width: 70%;
+    opacity: 0.95;
+}
+
+.text{  
+    color: #fafafa;        
+    flex-direction: column;
+    justify-content: center;
+}
+.col-6{
+   object-fit: cover;
+}
