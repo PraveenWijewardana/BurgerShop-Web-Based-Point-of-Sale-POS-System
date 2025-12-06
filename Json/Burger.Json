@@ -1,0 +1,165 @@
+[
+    {
+        "name": "Classic Beef Burger",
+        "price": 750.00,
+        "ingredients": [
+            "Beef Patty",
+            "Lettuce",
+            "Tomato",
+            "Onion",
+            "Cheddar",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Cheese Burger",
+        "price": 820.00,
+        "ingredients": [
+            "Beef Patty",
+            "Double Cheese",
+            "Pickles",
+            "Onion",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Double Cheese Burger",
+        "price": 1150.00,
+        "ingredients": [
+            "Double Beef Patty",
+            "Double Cheese",
+            "Onion",
+            "Pickles",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Chicken Burger",
+        "price": 690.00,
+        "ingredients": [
+            "Crispy Chicken",
+            "Mayo",
+            "Lettuce",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Spicy Chicken Burger",
+        "price": 730.00,
+        "ingredients": [
+            "Crispy Chicken",
+            "Spicy Mayo",
+            "Lettuce",
+            "Jalapeños",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Grilled Chicken Burger",
+        "price": 780.00,
+        "ingredients": [
+            "Grilled Chicken Breast",
+            "Lettuce",
+            "Tomato",
+            "Honey Mustard",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Veggie Burger",
+        "price": 650.00,
+        "ingredients": [
+            "Veg Patty",
+            "Lettuce",
+            "Tomato",
+            "Cheese",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Mushroom Melt Burger",
+        "price": 900.00,
+        "ingredients": [
+            "Beef Patty",
+            "Mushroom Sauce",
+            "Swiss Cheese",
+            "Caramelized Onion",
+            "Bun"
+        ]
+    },
+    {
+        "name": "BBQ Beef Burger",
+        "price": 980.00,
+        "ingredients": [
+            "Beef Patty",
+            "BBQ Sauce",
+            "Cheddar",
+            "Onion Rings",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Bacon Cheese Burger",
+        "price": 1050.00,
+        "availability": true,
+        "ingredients": [
+            "Beef Patty",
+            "Bacon",
+            "Cheddar",
+            "Pickles",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Zinger Burger",
+        "price": 820.00,
+        "ingredients": [
+            "Spicy Crispy Chicken",
+            "Mayo",
+            "Lettuce",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Fish Fillet Burger",
+        "price": 740.00,
+        "ingredients": [
+            "Crispy Fish Fillet",
+            "Tartar Sauce",
+            "Lettuce",
+            "Bun"
+        ]
+    },
+    {
+        "name": "Pepper Chicken Burger",
+        "price": 760.00,
+        "ingredients": [
+            "Pepper Chicken",
+            "Lettuce",
+            "Onion",
+            "Black Pepper Sauce",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Crispy Paneer Burger",
+        "ingredients": [
+            "Crispy Paneer",
+            "Cheese",
+            "Lettuce",
+            "Mint Mayo",
+            "Burger Bun"
+        ]
+    },
+    {
+        "name": "Giant Tower Burger",
+        "price": 1450.00,
+        "ingredients": [
+            "Double Chicken",
+            "Cheese",
+            "Onion Rings",
+            "Lettuce",
+            "Burger Bun"
+       ]
+    }
+]

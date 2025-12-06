@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Classic Beef Burger",
+    "price": 799,
+    "description": "Juicy beef patty with lettuce, tomato, onions, pickles, and house sauce."
+  },
+  {
+    "name": "Cheese Burger",
+    "price": 849,
+    "description": "Beef patty topped with melted cheddar cheese and classic toppings."
+  },
+  {
+    "name": "Double Beef Burger",
+    "price": 1099,
+    "description": "Two seasoned beef patties stacked with cheese and fresh veggies."
+  },
+  {
+    "name": "Bacon Burger",
+    "price": 999,
+    "description": "Crispy bacon strips layered over a juicy beef patty with smoky sauce."
+  },
+  {
+    "name": "Mushroom Swiss Burger",
+    "price": 949,
+    "description": "Sautéed mushrooms and Swiss cheese on a perfectly grilled patty."
+  },
+  {
+    "name": "BBQ Burger",
+    "price": 979,
+    "description": "Beef patty glazed with BBQ sauce, crispy onions, and cheddar cheese."
+  },
+  {
+    "name": "Spicy Jalapeño Burger",
+    "price": 899,
+    "description": "Hot jalapeños, pepper jack cheese, and a zesty spicy mayo."
+  },
+  {
+    "name": "Veggie Burger",
+    "price": 749,
+    "description": "Plant-based patty with lettuce, tomato, onions, and herb mayo."
+  },
+  {
+    "name": "Chicken Crispy Burger",
+    "price": 829,
+    "description": "Crispy fried chicken breast with mayo, lettuce, and pickles."
+  },
+  {
+    "name": "Grilled Chicken Burger",
+    "price": 869,
+    "description": "Tender grilled chicken fillet with fresh veggies and aioli."
+  }
+]

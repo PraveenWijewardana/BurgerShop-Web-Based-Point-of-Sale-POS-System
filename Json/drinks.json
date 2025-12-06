@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Coca-Cola",
+    "price": 249,
+    "description": "Refreshing classic cola served chilled."
+  },
+  {
+    "name": "Sprite",
+    "price": 249,
+    "description": "Lemon-lime soda with a crisp, clean taste."
+  },
+  {
+    "name": "Fanta Orange",
+    "price": 249,
+    "description": "Bright, fruity, and sweet orange soda."
+  },
+  {
+    "name": "Iced Tea",
+    "price": 299,
+    "description": "Brewed black tea served ice-cold with lemon."
+  },
+  {
+    "name": "Milkshake (Chocolate)",
+    "price": 499,
+    "description": "Thick, creamy chocolate milkshake topped with whipped cream."
+  },
+  {
+    "name": "Milkshake (Strawberry)",
+    "price": 499,
+    "description": "Sweet strawberry milkshake blended with real strawberries."
+  },
+  {
+    "name": "Milkshake (Vanilla)",
+    "price": 499,
+    "description": "Classic vanilla shake made with smooth ice cream."
+  },
+  {
+    "name": "Fresh Lemonade",
+    "price": 349,
+    "description": "Freshly squeezed lemons with a perfect sweet–tart balance."
+  },
+  {
+    "name": "Iced Coffee",
+    "price": 399,
+    "description": "Cold-brew coffee served over ice with optional milk."
+  },
+  {
+    "name": "Bottled Water",
+    "price": 199,
+    "description": "Pure and refreshing natural mineral water."
+  }
+]
