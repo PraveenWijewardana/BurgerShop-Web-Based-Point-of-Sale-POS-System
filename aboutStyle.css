@@ -1,0 +1,30 @@
+.aboutimage{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    width: 50%;
+}
+.container-fluid{
+  background: linear-gradient(135deg, #c45353 0%, #360101 100%);
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    box-shadow: 0 8px 32px rgba(163, 151, 151, 0.5);
+    border-bottom: 4px solid #585b5c;
+    position:sticky;
+    top: 0;
+    z-index: 1; 
+}
+.text{
+  color: rgb(16, 14, 11);
+    box-shadow: 0 8px 32px rgba(163, 151, 151, 0.5);
+    border-bottom: 4px solid #bfc5c8;
+    z-index: 1; 
+    position: fixed;
+    color: #bfc5c8;
+
+}

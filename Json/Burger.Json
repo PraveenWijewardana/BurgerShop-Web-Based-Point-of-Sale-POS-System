@@ -1,58 +1,28 @@
 [
     {
         "name": "Classic Beef Burger",
-        "price": 750.00,
-        "ingredients": [
-            "Beef Patty",
-            "Lettuce",
-            "Tomato",
-            "Onion",
-            "Cheddar",
-            "Burger Bun"
-        ]
+        "price": 1750.00
+        
     },
     {
         "name": "Cheese Burger",
-        "price": 820.00,
-        "ingredients": [
-            "Beef Patty",
-            "Double Cheese",
-            "Pickles",
-            "Onion",
-            "Burger Bun"
-        ]
+        "price": 820.00
+       
     },
     {
         "name": "Double Cheese Burger",
-        "price": 1150.00,
-        "ingredients": [
-            "Double Beef Patty",
-            "Double Cheese",
-            "Onion",
-            "Pickles",
-            "Burger Bun"
-        ]
+        "price": 1150.00
+       
     },
     {
         "name": "Chicken Burger",
-        "price": 690.00,
-        "ingredients": [
-            "Crispy Chicken",
-            "Mayo",
-            "Lettuce",
-            "Burger Bun"
-        ]
+        "price": 690.00
+       
     },
     {
         "name": "Spicy Chicken Burger",
-        "price": 730.00,
-        "ingredients": [
-            "Crispy Chicken",
-            "Spicy Mayo",
-            "Lettuce",
-            "Jalapeños",
-            "Burger Bun"
-        ]
+        "price": 730.00
+       
     },
     {
         "name": "Grilled Chicken Burger",

@@ -11,6 +11,8 @@
         background-color: rgb(49, 14, 14);
     }
 </style>
+ <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 
 <body>
@@ -26,22 +28,22 @@
           <a class="nav-link active" aria-current="page" href="#">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="about.html">About</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
            Menu
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Burgers</a></li>
-            <li><a class="dropdown-item" href="#">Fries</a></li>
-            <li><a class="dropdown-item" href="#">Drinks</a></li>
+            <li><a class="dropdown-item" href="index.html">Burgers</a></li>
+            <li><a class="dropdown-item" href="fries.html">Fries</a></li>
+            <li><a class="dropdown-item" href="drinks.html">Drinks</a></li>
             <li><hr class="dropdown-divider"></li>
             <li><a class="dropdown-item" href="#"></a></li>
           </ul>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Promosions</a>
+          <a class="nav-link" href="promition.html">Promotions</a>
         </li>
       </ul>
       <form class="d-flex" role="search">
@@ -57,39 +59,83 @@
 </div><br><br><br>
 <div class="row">
     <div class="col-6">
-    <img src="asset/Gemini_Generated_Image_pnikafpnikafpnik.png" width="100%">
+       <video  autoplay muted loop id="bg-video">
+           <source src="asset/AI Burger Commercial - Matan Cohen-Grumi (360p, h264).mp4" type="video/mp4">
+        </video>  
 </div>
-<div class="col-6">
-<p class="para">
-    🍔 The Story of Blaze & Bite Burger Co. 🍔
-Long before Blaze & Bite Burger Co. became the neighborhood’s favorite hangout, it began with a tiny grill, a big dream, and a whole lot of smoke.
-
-Sam “Blaze” Ramirez grew up helping his grandmother in the kitchen.
- She believed two things made food unforgettable: fresh ingredients and cooking with heart.
-  She also had a secret burger spice blend she guarded like treasure.
-   Meanwhile, across town, Mia “Bite” Thompson was winning every local grilling competition she entered.
-    Her patties were thick, juicy, and perfectly seared—so good that people joked one bite could “bring sunshine to a rainy day.”
-One summer, the two grill masters collided at a street food festival. Blaze brought the flavors. Bite brought the fire. And by the end of the day, the line at their shared booth wrapped around the block.
-They looked at each other and realized something:
-Together, they could build the kind of burger shop people would crave every single day.
-So they opened Blaze & Bite—a place where the grill sizzles nonstop, the buns are always toasted just right, and every burger is handcrafted with the same passion that started it all.
-Today, Blaze & Bite isn’t just a burger shop. It’s a story of flavor, friendship, and the belief that a great burger can make the world feel a little warmer and a lot happier.
-One bite, and you’re part of the story.
-They looked at each other and realized something:
-Together, they could build the kind of burger shop people would crave every single day.
-So they opened Blaze & Bite—a place where the grill sizzles nonstop, the buns are always toasted just right, and every burger is handcrafted with the same passion that started it all.
-Today, Blaze & Bite isn’t just a burger shop. It’s a story of flavor, friendship, and the belief that a great burger can make the world feel a little warmer and a lot happier.
-One bite, and you’re part of the story.
-</p>
-</div>
-<div class="card col-2 m-0 p-0" style="width: 18rem;">
-  <img src="asset/homemade-cheese-smash-burger-lettuce-tomato-fries-79598455.jpg" class="card-img-top" alt="...">
+<div class="card col-2 m-5 p-0 mt-5" style="width: 18rem;">
+  <img src="asset/bacon-burger-beef.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Homemade-cheese-burger</h5>
+    <h5 class="card-title">bacon-burger-beef
+                          Rs.1750.00
+    </h5>
+    <a href="#" class="btn btn-danger">+</a>
+  </div>
+</div>
+<div class="card col-2 m-5 p-0" style="width: 18rem;">
+  <img src="asset/bacon-cheddar-jalapeno-burger.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">bacon-cheddar-jalapeno-burger
+                          Rs.2000.00
+    </h5>
+    <a href="#" class="btn btn-danger">+</a>
+  </div>
+</div>
+<div class="card col-2 m-5 p-0 row-gap-5 column-gap-5" style="width: 18rem;">
+  <img src="asset/Chili Crunch Burger.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">chili Crunch Burger
+                          Rs.1100.00
+    </h5>
     <a href="#" class="btn btn-danger">+</a>
   </div>
 </div>
 
+<div class="card col-2 m-5 p-0" style="width: 18rem;">
+  <img src="asset/classic.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Classic Burger<br>
+                          Rs.430.00
+    </h5>
+    <a href="#" class="btn btn-danger">+</a>
+  </div>
+</div>
+<div class="card col-2 m-5 p-0" style="width: 18rem;">
+  <img src="asset/double-stack-beef-burger.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Double stack beef Burger
+                          Rs.2600.00
+    </h5>
+    <a href="#" class="btn btn-danger">+</a>
+  </div>
+</div>
+<div class="card col-2 m-5 p-0" style="width: 18rem;">
+  <img src="asset/hawaiian-burger-pineapple-ham-cheese-topped-crispy-fried-onion.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Hwaiian Burger<br>
+                          Rs.1900.00
+    </h5>
+    <a href="#" class="btn btn-danger">+</a>
+  </div>
+</div>
+<div class="card col-2 m-5 p-0" style="width: 18rem;">
+  <img src="asset/mushroom-swiss-burger.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Mushroom Burger<br>
+                          Rs.1430.00
+    </h5>
+    <a href="#" class="btn btn-danger">+</a>
+  </div>
+</div>
+<div class="card col-2 m-5 p-0" style="width: 18rem;">
+  <img src="asset/Truffle Gourmet Burger.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Truffle Burger<br>
+                          Rs.1000.00
+    </h5>
+    <a href="#" class="btn btn-danger">+</a>
+  </div>
+</div>
     <script src="app.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
     
