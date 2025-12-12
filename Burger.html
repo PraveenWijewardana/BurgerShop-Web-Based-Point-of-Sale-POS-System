@@ -1,126 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="item.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="cart.css">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarScroll">
-      <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="about.html">About</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-           Menu
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="Burger.html">Burgers</a></li>
-            <li><a class="dropdown-item" href="fries.html">Fries</a></li>
-            <li><a class="dropdown-item" href="drinks.html">Drinks</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="Burger.html"></a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="promition.html">Promotions</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
+  <header class="header">
+    <a href="#" class="logo">Burger Lovers</a>
+    <div id="cart-icon">
+<i class="ri-shopping-cart-fill"></i>
+<span class="cart-item-count"></span>
     </div>
-  </div>
-</nav>
-    <div>
-    <img class="background-img"src="asset/background.jpg">
-</div><br><br><br>
-<div class="card col-2 m-5 p-0 mt-5" style="width: 18rem;">
-  <img src="asset/bacon-burger-beef.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">bacon-burger-beef
-                          Rs.1750.00
-    </h5>
-    <a href="cart.html" class="btn btn-danger">+</a>
-  </div>
-</div>
-<div class="card col-2 m-5 p-0" style="width: 18rem;">
-  <img src="asset/bacon-cheddar-jalapeno-burger.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">bacon-cheddar-jalapeno-burger
-                          Rs.2000.00
-    </h5>
-    <a href="cart.html" class="btn btn-danger">+</a>
-  </div>
-</div>
-<div class="card col-2 m-5 p-0 row-gap-5 column-gap-5" style="width: 18rem;">
-  <img src="asset/Chili Crunch Burger.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">chili Crunch Burger
-                          Rs.1100.00
-    </h5>
-    <a href="cart.html" class="btn btn-danger">+</a>
-  </div>
-</div>
+  </header>
+   <section class="section-title">MY CART</section>
+   <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/bacon-burger-beef.jpg">
+      </div>
+      <h2  class="product-title">Bacon beef burger</h2>
+      <div class="price-and cart">
+        <span class="price">price: 1750.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
+   
+   <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/bacon-cheddar-jalapeno-burger.jpg">
+      </div>
+      <h2  class="product-title">Bacon cheddar burger</h2>
+      <div class="price-and cart">
+        <span class="price">price: 1750.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
 
-<div class="card col-2 m-5 p-0" style="width: 18rem;">
-  <img src="asset/classic.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Classic Burger<br>
-                          Rs.430.00
-    </h5>
-    <a href="cart.html" class="btn btn-danger">+</a>
-  </div>
-</div>
-<div class="card col-2 m-5 p-0" style="width: 18rem;">
-  <img src="asset/double-stack-beef-burger.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Double stack beef Burger
-                          Rs.2600.00
-    </h5>
-    <a href="cart.html" class="btn btn-danger">+</a>
-  </div>
-</div>
-<div class="card col-2 m-5 p-0" style="width: 18rem;">
-  <img src="asset/hawaiian-burger-pineapple-ham-cheese-topped-crispy-fried-onion.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Hwaiian Burger<br>
-                          Rs.1900.00
-    </h5>
-    <a href="cart.html" class="btn btn-danger">+</a>
-  </div>
-</div>
-<div class="card col-2 m-5 p-0" style="width: 18rem;">
-  <img src="asset/mushroom-swiss-burger.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Mushroom Burger<br>
-                          Rs.1430.00
-    </h5>
-    <a href="cart.html" class="btn btn-danger">+</a>
-  </div>
-</div>
-<div class="card col-2 m-5 p-0" style="width: 18rem;">
-  <img src="asset/Truffle Gourmet Burger.jpg" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Truffle Burger<br>
-                          Rs.1000.00
-    </h5>
-    <a href="cart.html" class="btn btn-danger">+</a>
-  </div>
-</div>
- 
+     <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/Chili Crunch Burger.jpg">
+      </div>
+      <h2  class="product-title">chili Crunch Burger             
+
+      <div class="price-and cart">
+        <span class="price">price: 1100.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
+ <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/classic.jpg">
+      </div>
+      <h2  class="product-title">Classic Burger             
+
+      <div class="price-and cart">
+        <span class="price">price: 430.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
+    <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/Chili Crunch Burger.jpg">
+      </div>
+      <h2  class="product-title">chili Crunch Burger             
+
+      <div class="price-and cart">
+        <span class="price">price: 1100.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
+
+      <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/double-stack-beef-burger.jpg">
+      </div>
+      <h2  class="product-title">Double stack beef burger             
+      <div class="price-and cart">
+        <span class="price">price:2600.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
+
+     <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/hawaiian-burger-pineapple-ham-cheese-topped-crispy-fried-onion.jpg">
+      </div>
+      <h2  class="product-title">Hawaiian pineapple burger            
+      <div class="price-and cart">
+        <span class="price">price:2700.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
+
+        <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/mushroom-swiss-burger.jpg">
+      </div>
+      <h2  class="product-title">Hawaiian pineapple burger            
+      <div class="price-and cart">
+        <span class="price">price:1800.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
+
+   <!-- fries -->
+
+        <div class="product-conut">
+    <div class="product-box">
+      <div class="img-box">
+        <img src="asset/Classic French Fries.jpg">
+      </div>
+      <h2  class="product-title">Classic french fries   
+      <div class="price-and cart">
+        <span class="price">price:550.00</span>
+        <i class="ri-shopping-cart-fill"></i>
+      </div>
+    </div>
+   </div>
 </body>
 </html>
